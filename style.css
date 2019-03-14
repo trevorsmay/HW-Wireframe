@@ -1,0 +1,152 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+* {
+    box-sizing: border-box;
+    text-align: center;
+}
+
+body {
+    background-color: #777;
+    align-content: center;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777;
+}
+
+.content {
+    width: 960px;
+    margin: 0 auto;
+    padding: 10px;
+    border: 1px solid white;
+}
+
+.header {
+    background-color: #ebebeb;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+    border: 5px solid #777;
+}
+
+#nav {
+    background-color: #ebebeb;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: 5px solid #777;
+}
+
+.sect-aside {
+    width: 100%;
+}
+
+.aside {
+    background-color: #ebebeb;
+    width: 40%;
+    padding: 10px;
+    border: 5px solid #777;
+    float: right;
+    margin-right: 0;
+    height: 232px;
+}
+
+#section {
+    background-color: #ebebeb;
+    padding: 10px;
+    width: 60%;
+    border: 5px solid #777;
+    float: left;
+    margin-left: 0;
+}
+
+.container {
+    float: left;
+    width: 100%;
+    border: 5px solid #ebebeb;
+    padding: 10px;
+}
+
+#article {
+    background-color: #777;
+    color: #ebebeb;
+    padding: 10px;
+    border: 5px solid #777;
+    width: 100%;
+}
+
+#h1 {
+    background-color: #ebebeb;
+    padding: 10px;
+    border: 5px solid #777;
+    width: 100%;
+    border-top: 10px solid #777;
+    border-right: 5px solid #777;
+    border-left: 5px solid #777;
+}
+
+#p {
+    
+    background-color: #ebebeb;
+    padding: 10px;
+    border: 5px solid #777;
+    border-bottom: 10px solid #777;
+    border-right: 5px solid #777;
+    border-left: 5px solid #777;
+    width: 100%;
+
+}
+
+.footer {
+    background-color: #ebebeb;
+    padding: 20px;
+    width: 100%;
+    clear: both;
+    border: 5px solid #777;
+}
