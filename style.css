@@ -49,12 +49,12 @@ table {
 
 * {
     box-sizing: border-box;
-    text-align: center;
+    align-content: center;
 }
 
 body {
     background-color: #777;
-    align-content: center;
+    text-align: center;
     font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
     color: #777;
@@ -64,7 +64,6 @@ body {
     width: 960px;
     margin: 0 auto;
     padding: 10px;
-    border: 1px solid white;
 }
 
 .header {
